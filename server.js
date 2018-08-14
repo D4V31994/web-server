@@ -12,6 +12,7 @@ var middleware = {
 		next();
 	}
 };
+
 app.use(middleware.logger);
 
 // app.use(middleware.requireAuthentication);
